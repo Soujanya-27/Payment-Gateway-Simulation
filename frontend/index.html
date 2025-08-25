@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Wallet App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Simple Wallet App</h1>
+        <button id="logoutBtn" style="display: none;">Logout</button>
+    </header>
+    <main>
+        <section id="authSection">
+            <h2>Login or Register</h2>
+            <form id="authForm">
+                <input type="text" id="authUsername" placeholder="Username" required>
+                <input type="password" id="authPassword" placeholder="Password" required>
+                <div class="button-group">
+                    <button type="submit" id="loginBtn">Login</button>
+                    <button type="button" id="registerBtn">Register</button>
+                </div>
+            </form>
+            <p id="authMessage" class="message"></p>
+        </section>
+
+        <section id="appSection" style="display: none;">
+            <div id="balanceSection" class="card">
+                <h2>Your Balance</h2>
+                <p>Current Balance: <span id="balanceAmount"></span></p>
+                <button id="refreshBalanceBtn">Refresh Balance</button>
+            </div>
+
+            <div id="transferSection" class="card">
+                <h2>Transfer Funds</h2>
+                <form id="transferForm">
+                    <input type="text" id="transferToUser" placeholder="Recipient Username" required>
+                    <input type="number" id="transferAmount" placeholder="Amount" step="0.01" min="0.01" required>
+                    <button type="submit">Transfer</button>
+                </form>
+                <p id="transferMessage" class="message"></p>
+            </div>
+            
+            <div id="transactionsSection" class="card">
+                <h2>Transaction History</h2>
+                <button id="refreshTransactionsBtn">Refresh History</button>
+                <ul id="transactionList">
+                    </ul>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
