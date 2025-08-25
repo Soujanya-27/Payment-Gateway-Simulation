@@ -10,7 +10,7 @@ This is a full-stack web application that simulates a simple digital wallet or p
 * **Transfer Funds:** Send money to another registered user.
 * **Transaction History:** View a list of your past transactions (credits and debits).
 
-  ## Technologies Used
+## Technologies Used
 
   ### Backend
   * **FastAPI:** A modern, fast (high-performance) web framework for building APIs with Python.
@@ -22,7 +22,7 @@ This is a full-stack web application that simulates a simple digital wallet or p
   * **CSS3:** Styles the application for a clean and responsive design.
   * **JavaScript:** Handles all client-side logic, API calls, and dynamic updates to the UI.
  
-  ## Getting Started
+## Getting Started
 
   ### Prerequisites
   Make sure you have **Python 3.7+** installed. You will also need `uvicorn` and `fastapi`.
@@ -32,7 +32,7 @@ This is a full-stack web application that simulates a simple digital wallet or p
   pip install fastapi uvicorn
   ```
 
- ## Running the Project
+## Running the Project
 
  **1. Clone the Repository**
  ```sh
