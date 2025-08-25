@@ -25,8 +25,16 @@ This is a full-stack web application that simulates a simple digital wallet or p
   ## Getting Started
 
   ### Prerequisites
-Make sure you have **Python 3.7+** installed. You will also need `uvicorn` and `fastapi`.
+  Make sure you have **Python 3.7+** installed. You will also need `uvicorn` and `fastapi`.
 
-You can install them using pip:
+  You can install them using pip:
+  ```sh
+  pip install fastapi uvicorn
+
+
+## Running the Project
+
+**1. Clone the Repository**
 ```sh
-pip install fastapi uvicorn
+git clone [https://github.com/your-username/payment-gateway-simulation.git](https://github.com/your-username/payment-gateway-simulation.git)
+cd payment-gateway-simulation
