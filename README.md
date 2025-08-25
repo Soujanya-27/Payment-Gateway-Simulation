@@ -1,4 +1,4 @@
-# Payment Gateway Simulation
+# Simple Wallet App
 
 This is a full-stack web application that simulates a simple digital wallet or payment system. The backend is built with **FastAPI** in Python, and the frontend is a **Single-Page Application (SPA)** using **HTML, CSS, and JavaScript**.
 
